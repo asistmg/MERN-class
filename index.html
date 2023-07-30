@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <style>
+        /* to connect use: ctrl +/ */
+        body {
+            background-color:white;
+            color:black
+        }
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th{
+            border: 1px solid black;
+        }
+        td{
+            border: 1px solid black;
+        }
+        h1{
+            color: red;
+            text-align: center;
+        }
+        h2{
+            color:cyan
+        }
+        h3{
+            color:blue
+        }
+        a{
+            color:blue;
+            margin-left: 16px;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        header{
+            background-color: red;
+            color:aqua
+     
+        }
+        footer{
+        background-color:red;
+        color:black
+        }
+        /* #Relative-path{
+            background-color: yellow;
+        }
+        #external{
+            background-color: yellow;
+        } */
+        .inline{
+            background-color: green;
+            text-decoration: underline;
+        }
+        .man{
+            padding: 100px;
+        }
+        .underline{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        Asis brings you
+        <a href="./contact.html">contact</a>
+        <a href="./aboutus.html">About us</a>
+        <a href="./courses/python.html">Python</a>
+        <a href="./courses/web.html">Web</a>
+        <a href="./courses/upcoming/data-science.html">Data Science</a>
+        <a href="./courses/upcoming/QA.html">QA</a>
+    </header>
+    <h1>Web/MERN</h1>
+    <hr>
+    <p>This is a web class.</p>
+    <h2>HTML</h2>
+    <ul>
+        <li>
+            <h3>Elements/tags</h3>
+            eg: &lt; Elements &gt; ....&lt;/Elements&gt;
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ut saepe corrupti error enim dolorem.
+                Libero rerum sit cupiditate similique fugiat possimus quam numquam, quis officiis dignissimos, molestias
+                facilis asperiores.</p>
+        </li>
+        <li>
+            <h3>Attribute</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias quasi, dicta assumenda, explicabo eaque,
+                est voluptate quibusdam obcaecati nam optio adipisci ipsam iste expedita voluptatem tempora similique
+                eveniet repudiandae libero!</p>
+        </li>
+        <li>
+            <h3>Paths</h3>
+            <ol>
+                <li>Absolute path</li>
+                <li id="Relative-path">relative path</li>
+            </ol>
+        </li>
+    </ul>
+    <hr>
+    <h2 class="underline">CSS</h2>
+    <ol>
+        <li>
+            <h3 class="underline">inline</h3>
+        </li>
+        <li>
+            <h3>score</h3>
+        </li>
+        <li>
+            <h3>box sizing</h3>
+        </li>
+        <li>
+            <h3>typography</h3>
+        </li>
+        <li>
+            <h3>Inline CSS</h3>
+            <ol>
+                <li class="inline">inline</li>
+                <li class="inline">internal</li>
+                <li id="external">external</li>
+            </ol>
+        </li>
+    </ol>
+
+    <img src="./college logo.jpg" width="500" height="400" alt="">
+    <img src="./Assets/images/reading computer.jpg" width="500" height="400" alt=""><br>
+    <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="">
+    <hr>
+    <p>This is a formal table:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>company</th>
+                <th>contact</th>
+                <th>country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>cmp-1</td>
+                <td>1111</td>
+                <td>nepal</td>
+            </tr>
+            <tr>
+                <td>cmp-2</td>
+                <td>2222</td>
+                <td>india</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Apple</td>
+                <td>10</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Orange</td>
+                <td>5</td>
+                <td>50</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2" style="text-align:center">Total Price</td>
+                <td>150</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2" style="color: red;">name</th>
+                <th rowspan="2">email</th>
+            </tr>
+            <tr>
+                <th>first</th>
+                <th>last</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aashish</td>
+                <td>Tamang</td>
+                <td>asistmg655@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Bibash</td>
+                <td>Bhattarai</td>
+                <td>bib123@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Abhisek</td>
+                <td>Shedain</td>
+                <td>Shedainabhi69@gmail.com</td>
+            </tr>
+        </tbody>
+
+    </table>
+    <hr>
+    <footer>
+    <a href="https://www.youtube.com" target="_blank">youtube</a><br>
+    <a href="https://www.google.com" target="_blank">google</a><br>
+    <div class="man">Aashish Tamang</div>
+</footer>
+
+</body>
+
+</html>
