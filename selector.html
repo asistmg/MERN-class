@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        a{
+            text-decoration: none;
+            color:inherit
+        }
+        ul,ol{
+            list-style: none;
+        }
+        .text-3xl{
+            font-size: 16px;
+            font-size: 1rem;
+            font-size: 3rem;
+        }
+        .font-bold{
+            font-weight: 700;
+        }
+        body{
+            padding: 1rem;
+        }
+        header{
+            background-color: antiquewhite;
+            padding: 1rem;
+            padding-bottom: 1rem;
+        }
+        header li{
+            display: inline; 
+        }
+        .ml-1{
+             margin-left: 1rem;  
+             /* padding-left: 1rem;  */
+        }
+        .selector-list ul{
+            padding-left: 2rem;
+            list-style: disc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+               <li>
+                <a href="#">Home</a>
+               </li>
+               <li class="ml-1">
+                <a href="#">Aboutus</a>
+               </li>
+               <li class="ml-1">
+                <a href="#">Contact</a>
+               </li>
+            </ul>
+        </nav>
+    </header>
+    <p class="text-3xl font-bold">Selectors</p>
+    <div class="selector-list">
+        <ul>
+            <li>elements/tags</li>
+            <li class="font-bold">class</li>
+            <li>id</li>
+            <li>combined selectors
+            <ul>
+                <li class="font-bold">descendent selector</li>
+                <li class="font-bold">Selector</li>
+
+            </ul>
+        </li>
+</ul>
+    </div>
+</body>
+</html>

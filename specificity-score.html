@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: red;
+            color: green;
+        }
+
+        p {
+            color: gold !important;
+        }
+
+        body p {
+            color: blue;
+        }
+
+        .green {
+            color: green;
+        }
+
+        #orange {
+            color: orange;
+        }
+
+        .green#orange {
+            color: brown;
+        }
+        p.green#orange{
+            color:blueviolet;
+        }
+        body p.green#orange{
+            color: chartreuse;
+        }
+        body p.green#orange{
+            color:black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>specificity score</h1>
+    <p class="green" id="orange" style="color: blueviolet;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat esse illo quam optio
+        impedit ex incidunt nostrum. Odit aliquid adipisci suscipit, in minima omnis, veritatis eum maiores mollitia
+        corporis voluptas.
+    </p>
+</body>
+
+</html>
