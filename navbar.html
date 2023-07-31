@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: antiquewhite;
+        }
+
+        a {
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+
+        header {
+            background-color: azure;
+            padding: 16px;
+        }
+
+        header li {
+            display: inline;
+        }
+
+        header ul {
+            padding: 0px;
+        }
+
+        ul {
+            padding: 32px;
+        }
+
+        main {
+            padding: 16px;
+        }
+
+        .box {
+            display: inline-block;
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+        }
+
+        p.red {
+            color: red;
+        }
+        div.red{
+            background-color: red;
+        }
+        header a.active{
+            color:red;
+        }
+        header a:hover{
+            color:red;
+        }
+        header li:not(:first-child){
+            margin-left: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Testimonials</a>
+                </li>
+                <li>
+                    <a href="#">About us</a>
+                </li>
+                <li>
+                    <a href="#">Contact us</a>
+                </li>
+                <li>
+                    <a href="#" class="active">navbar</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Navbar</h1>
+        <hr>
+        <ul>
+            <li>inline </li>
+            <li>inline-block</li>
+            <li>block</li>
+            <li>grid</li>
+            <li>flex</li>
+        </ul>
+        <p class="red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus totam consequuntur minima
+            numquam animi? Minima id neque saepe nostrum dolorem dignissimos accusamus consectetur temporibus delectus.
+            Repudiandae quasi sunt provident hic!</p>
+        <div class="box red">box1</div>
+        <div class="box">box2</div>
+    </main>
+</body>
+
+</html>
